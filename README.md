@@ -13,41 +13,42 @@ Resampling Models Oversampling RandomOverSampler algorithms:
   * precision scores for high_risk = 0.01, low_risk = 1.00
   * recall scores for high_risk = 0.63, low_risk = 0.66
 
-![RandomOverSampler]()
+![RandomOverSampler](https://github.com/hayden0098/Credit_Risk_Analysis/blob/main/screen%20shot/RandomOverSampler.jpg)
 
 Resampling Models Synthetic Minority Oversampling Technique(SMOTE) algorithm:
   * balanced accuracy scores = 0.6289
   * precision scores for high_risk = 0.01, low_risk = 1.00
   * recall scores for high_risk = 0.60, low_risk = 0.66
 
-![SMOTE]()
+![SMOTE](https://github.com/hayden0098/Credit_Risk_Analysis/blob/main/screen%20shot/SMOTE.jpg)
+
 Resampling Models Undersampling ClusterCentroids algorithms:
   * balanced accuracy scores = 0.5160
   * precision scores for high_risk = 0.01, low_risk = 1.00 
   * recall scores for high_risk = 0.60, low_risk = 0.43
 
-![ClusterCentroids]()
+![ClusterCentroids](https://github.com/hayden0098/Credit_Risk_Analysis/blob/main/screen%20shot/ClusterCentroids.jpg)
 
 combinatorial approach of over- and undersampling SMOTEENN algorithms:
   * balanced accuracy scores = 0.6292
   * precision scores for high_risk = 0.01, low_risk = 1.00 
   * recall scores for high_risk = 0.72, low_risk = 0.53
 
-![SMOTEENN]()
+![SMOTEENN](https://github.com/hayden0098/Credit_Risk_Analysis/blob/main/screen%20shot/SMOTEENN.jpg)
 
 Ensemble Classifiers Balanced Random Forest Classifier algorithms:
   * balanced accuracy scores = 0.7871
   * precision scores for high_risk = 0.04, low_risk = 1.00 
   * recall scores for high_risk = 0.67, low_risk = 0.91 
 
-![Balanced Random Forest Classifier]()
+![Balanced Random Forest Classifier](https://github.com/hayden0098/Credit_Risk_Analysis/blob/main/screen%20shot/Balanced%20Random%20Forest%20Classifier.jpg)
 
 Ensemble Classifiers EasyEnsembleClassifier algorithms:
   * balanced accuracy scores = 0.9255
   * precision scores for high_risk = 0.07, low_risk = 1.00 
   * recall scores for high_risk = 0.91, low_risk = 0.94 
 
-![EasyEnsembleClassifier]()
+![EasyEnsembleClassifier](https://github.com/hayden0098/Credit_Risk_Analysis/blob/main/screen%20shot/EasyEnsembleClasskifier.jpg)
 
 ## Summary:
 As the result, we run through all 6 machine learning models, the highest balanced accuracy scores is the Easy Ensemble Classifier algorithms, which gives us 0.9255 high score of accuracy. On the other hand the precision score that correctly predicted the high risk loan is 0.07, low risk loan is 1.00, the recall(sensitive) scores that correctly detect potential high rick loan is 0.91, low risk loan is 0.94. 
